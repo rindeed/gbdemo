@@ -1,0 +1,453 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.logo-topnav {
+	padding:10px;
+}
+
+.logo-footer {
+	padding:10px;
+	float:left;
+}
+
+.btn-startnow {
+	    background-color: #399a5e;
+    -webkit-box-shadow: 0 3px 0 0 #297948;
+    box-shadow: 0 3px 0 0 #297948;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 140px;
+}
+
+.btn-startnow:hover {
+	    background-color: #52b477;
+    -webkit-box-shadow: 0 3px 0 0 #489d68;
+    box-shadow: 0 3px 0 0 #489d68;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 140px;
+}
+
+.btn-startnow:active {
+    color: #ededed;
+}
+
+
+.jumbotron .container h1 {
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.jumbotron .container h3 {
+	line-height: 0;
+    font-weight: bold;
+    margin-bottom: -15px;
+    font-size: 20px;
+    color: #2b6faf;
+}
+
+.jumbotron .container h1 span {
+	color: #2b6faf;
+}
+
+.jumbotron .container p {
+    font-size: 17px;
+}
+
+
+.gb-img-main {
+	float: right;
+	padding: 10px;
+}
+
+.btn-header-main {
+		    background-color: #399a5e;
+    -webkit-box-shadow: 0 5px 0 0 #297948;
+    box-shadow: 0 5px 0 0 #297948;
+    color: #fff;
+	text-shadow: 2px 2px 0 #297948;
+    text-transform: uppercase;
+	font-weight: bold;
+	width: 260px;
+}
+
+.btn-header-main:hover {
+		    background-color: #2b6faf;
+    -webkit-box-shadow: 0 5px 0 0 #25639e;
+    box-shadow: 0 5px 0 0 #25639e;
+    color: #fff;
+	text-shadow: 2px 2px 0 #25639e;
+}
+
+.btn-footer-main {
+	background-color: #399a5e;
+    -webkit-box-shadow: 0 5px 0 0 #297948;
+    box-shadow: 0 5px 0 0 #297948;
+    color: #fff;
+    text-shadow: 2px 2px 0 #297948;
+    text-transform: uppercase;
+    font-weight: bold;
+        min-width: 25%;
+        margin: 5% 0 5% 0;
+}
+
+.btn-footer-main:hover {
+	color:#eeeeee;
+}
+
+
+.form-group a {
+	    padding: 20px;
+    color: #ADADAD;
+}
+
+.form-group a:hover {
+    color: #399a5e;
+	text-decoration:none;
+}
+
+.products-sold {
+	float: left;
+    left: 50px;
+    top: -300px;
+    position: relative;
+}
+
+.products-sold p {
+	font-size: 10px !important;
+    padding: 5px;
+	color:#2b6faf;
+    position: absolute;
+}
+
+
+.pr-main {
+	    border: #e7e7e7 solid 1px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+	    margin: 0 auto;
+}
+
+.pr-main:hover {
+border: #D0D0D0 solid 1px;
+cursor:pointer;
+}
+
+.col-md-4 h5 {
+	    text-align: center;
+	    color: #9E9E9E;
+		padding-top: 20px;
+		z-index: 20;
+    position: relative;
+}
+
+.pr-ribbon {
+	left: -119px;
+    top: 30px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+	}
+	
+.pr-sold {
+	    left: 130px;
+    top: 90px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.pr-soldp {
+	 position: relative;
+    left: 131px;
+    color: #fff;
+    line-height: 0.9;
+    text-align: center;
+    top: 138px;
+    z-index: 10;
+}
+
+.pr-pricep {
+	    position: relative;
+    right: 122px;
+    color: #fff;
+    line-height: 0.9;
+    text-align: center;
+    top: 60px;
+    z-index: 10;
+}
+
+.daysleft {
+    color: #9c9c9c;
+    font-size: 11px;
+    padding: 10px;
+    width: 9em;
+    background-image: url("img/small-clock.png");
+    background-position-x: 0em;
+    background-position-y: 0.9em;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gb-text-main {
+	    float: left;
+    max-width: 600px;
+}
+
+.pr-featured {
+	background-color:#f4f4f4;
+}
+
+.featured-text {
+    color: #9A9A9A;
+    margin-top: -10px;	
+}
+
+.stats-header {
+text-align: center;
+    font-weight: bold;
+    color: #2b6faf;
+    padding: 20px;	
+}
+
+.product-img-main {
+	margin-top: -160px;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #52b477;
+    -webkit-box-shadow: 0 3px 0 0 #489d68;
+    box-shadow: 0 3px 0 0 #489d68;
+    color: #fff;
+}
+
+.stat-holder {
+	width: 170px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.stat-holder img {
+	margin: 0 auto;
+}
+
+.stat-holder h3 {
+	text-align:center;
+	font-weight:bold;
+	color: #2b6faf;
+}
+
+.stat-holder p {
+	    text-align: center;
+    color: #2b6faf;
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+.stats-spacer {
+	position: absolute;
+    margin-top: 45px;
+}
+
+.stat-all {
+	margin: 0 auto;
+    max-width: 880px;
+	padding-bottom: 20px;
+}
+
+
+.pr-single-img {
+	opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+	    display:inline-block;
+  		padding: 5px;
+}
+
+.pr-single-img:hover {
+	    opacity: 0.5;
+		cursor:pointer;
+}
+
+.all-prs {
+	margin: 0 auto;
+    width: 78%;
+}
+
+.pr-list-h {
+	text-align:center;
+	color: #2B6FAF;
+}
+
+.pr-list-p {
+	    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    color: #AFAFAF;
+	padding-bottom: 30px;
+}
+
+.stats-img:hover, .stats-img:focus, .stats-img:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
+.pr-bottom {
+	background-color:#2b6faf;
+	color:#fff;
+}
+
+.gb-text-bottom {
+	    float: left;
+    max-width: 700px;
+}
+
+.gb-text-bottom h2 {
+	font-weight:bold;
+}
+
+
+
+/* Bob */
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+
+/*
+
+@media (min-width: 768px) {
+	
+	.pr-sold {
+        left: 485px;
+}
+
+.pr-soldp {
+        left: 497px;
+}
+
+.pr-ribbon {
+    left: 221px;
+}
+
+.pr-pricep {
+        left: 228px;
+}
+
+}
+@media (min-width: 992px) {
+	.pr-sold {
+    left: 300px;
+}
+
+.pr-soldp {
+    left: 312px;
+}
+
+.pr-ribbon {
+    left: 40px;
+}
+
+.pr-pricep {
+    left: 48px;
+}
+	
+}
+@media (min-width: 1200px) {
+
+.pr-sold {
+    left: 300px;
+}
+
+.pr-soldp {
+    left: 312px;
+}
+
+.pr-ribbon {
+    left: 40px;
+}
+
+.pr-pricep {
+    left: 48px;
+}
+
+
+}
+
+
+@media (max-device-width: 480px) and (orientation: landscape) {
+
+}*/

@@ -92,8 +92,8 @@ body {
     text-shadow: 2px 2px 0 #297948;
     text-transform: uppercase;
     font-weight: bold;
-    width: 300px;
-    margin: 60px;;
+        min-width: 25%;
+        margin: 5% 0 5% 0;
 }
 
 .btn-footer-main:hover {
